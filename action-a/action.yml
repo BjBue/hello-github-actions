@@ -1,0 +1,18 @@
+name: "Hello Actions"
+description: "Greetings"
+author: "the grand stupido"
+
+inputs:
+  MY_NAME:
+    description: "Who is the stupid"
+    required: true
+    default: "What?"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
+
